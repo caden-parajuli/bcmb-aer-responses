@@ -4,7 +4,7 @@ This is a Google Apps Script for automatically sending email responses to Boston
 
 ## Installation
 
-I was able to package my code into a library, making installation a little easier and any future updates **much** easier. To install, follow the steps closely:
+I was able to package my code into a library, making installation a little easier and any future updates **much** easier. To install, follow these steps closely:
 
 1. Ensure that you are signed out of all Google accounts except the EBoard account that owns the AER form. Otherwise the Google Apps Scripts page sometimes refuses to load (don't worry this is only for when you install it).
 2. Open the Google Sheet that receives the AER Form data. To make sure you get the right Sheet, you can go to the AER form on Google Forms, click the `Responses` tab, and click `View in Sheets`.
