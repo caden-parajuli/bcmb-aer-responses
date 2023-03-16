@@ -2,6 +2,17 @@
  * Library located at https://script.google.com/home/projects/1AI6Lqv2gGOPDSBl2we24BbfzK0OI49-FGZAQeXUNISKuRU_hbX3vRM6l/edit
  */
 
+/** Helper functions for checking trigger presence */
+function isTriggerPresent() {
+  return BCMBAERResponses.isTriggerPresent();
+}
+function triggerPresent() {
+  BCMBAERResponses.triggerPresent()
+}
+function triggerNotPresent() {
+  BCMBAERResponses.triggerNotPresent()
+}
+
 /**
  * The event handler triggered when installing the add-on.
  * @param {Event} e The onInstall event.
@@ -32,4 +43,3 @@ function enableEmails() {
 function onFormSubmit(e) {
   BCMBAERResponses.onFormSubmit(e);
 }
-
